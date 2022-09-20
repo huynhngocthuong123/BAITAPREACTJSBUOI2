@@ -1,0 +1,41 @@
+.Glass {
+  background-image: url(../public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.changeGlass {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* overflow: hidden; */
+}
+.img {
+}
+.change {
+  position: absolute;
+}
+.change img {
+  width: 250px;
+  margin: 150px;
+  opacity: 0.7;
+}
+.content {
+  position: absolute;
+  bottom: 0;
+  width: 480px;
+  background-color: rgba(255, 166, 0, 0.438);
+}
+.listGlass {
+  width: 1450px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}
+.img-glass {
+  margin-left: 15px;
+}
+.img-glass img {
+  width: 150px;
+}
